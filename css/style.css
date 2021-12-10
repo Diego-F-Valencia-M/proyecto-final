@@ -69,7 +69,17 @@ nav ul li a:hover{
     font-size: 30px;
 }
 
+header h1{
+    transition: font-size 2s;
+    -webkit-transition: font-size 2s;
+    -moz-transition: font-size 2s;
+    -ms-transition: font-size 2s;
+    -o-transition: font-size 2s;
+}
 
+header h1:hover{
+    font-size: 80px;
+}
 
 .html5-index{
     display: block;
@@ -101,6 +111,15 @@ nav ul li a:hover{
     text-align: justify;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
+    transition:  color 2s;
+    -webkit-transition:  color 2s;
+    -moz-transition:  color 2s;
+    -ms-transition:  color 2s;
+    -o-transition:  color 2s;
+}
+
+.texto-1:hover{
+    color: rgb(172, 49, 4);
 }
 
 .css3{
@@ -137,6 +156,15 @@ nav ul li a:hover{
     text-align: justify;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
+    transition: color 2s;
+    -webkit-transition: color 2s;
+    -moz-transition: color 2s;
+    -ms-transition: color 2s;
+    -o-transition: color 2s;
+}
+
+.texto-2:hover{
+    color: rgb(53, 53, 235);
 }
 
 /*Inicia los estilos del html5.html*/
