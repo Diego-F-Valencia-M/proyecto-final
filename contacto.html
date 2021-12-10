@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/contacto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/html-css.png">
+    <title>contacto</title>
+</head>
+<body>
+    <div class="logo-ini">
+        <img src="./img/HTML5-logo-bn.png" alt="logo-html" class="logo1"/>
+        <img src="./img/css3-logo-bn.jpg" alt="logo-css" class="logo2"/>
+    </div>
+      <nav>   
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="html5.html">HTML 5</a></li>
+          <li><a href="css3.html">CSS 3</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+
+    <header>
+        <h1>CONTACTANOS</h1>
+    </header>
+  <header class="contenedor">
+    <form class="form">
+        <fieldset>
+            <legend class="leng-1">Formulario de Contacto</legend>
+            <div class="input-text">
+            <label class="datos" for="nombre">Nombres:</label>
+            <input class="controles" type="text" name="nombres" placeholder="ingresa tus nombres" required>
+            <label class="datos" for="apellido">Apellidos:</label>
+            <input class="controles" type="text" name="apellidos" placeholder="ingresa tus apellidos" required>
+            <label class="datos" for="email">Email:</label>
+            <input class="controles" type="email" name="nombre" placeholder="ingresa tu email" required>
+            </div>
+            <div class="radio">
+            <label for="sexo">Sexo</label>
+            <div>Hombre</div>
+            <input type="radio" name="sexo">
+            <div>Mujer</div>
+            <input type="radio" name="sexo">
+            <div>No estoy segur@</div>
+            <input type="radio" name="sexo">
+            </div>
+            <div class="multi-sel">
+            <legend class="leng-2">lenguaje Preferido</legend>
+            <select name="lenguajes">
+                <option>Seleciona tu preferido</option>
+                <option value="html">HTML 5</option>
+                <option value="css3">CSS 3</option>
+                <option value="javascript">JavaScript</option>
+            </select>
+          </div>
+            <div class="check">
+              <h4>Acepta terminos y condiciones</h4>
+            <input class="check-1" type="checkbox" required>
+            <div class="botones">
+            <input class="boton-1" type="submit" value="Enviar">
+            <input class="boton-2" type="reset" value="Limpiar">
+            </div>
+          </div>
+        </fieldset>
+    </form>
+  </header>  
+  <footer>        
+    <div class="logos-final">
+    <h4>&#169 2021</h4>
+     <a target="_blank" href="https://www.facebook.com/"><img src="./img/facebook-logo.png" alt="face-logo" /></a>
+     <a target="_blank" href="https://twitter.com/?lang=es"><img src="./img/twitter-logo.png" alt="tw-logo" /></a>
+     <a target="blank" href="https://www.instagram.com/?hl=es"><img src="./img/instagram-logo.jpg" alt="inst-logo" /></a>
+    </div>
+    </footer>
+</body>
+</html>

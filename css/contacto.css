@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #e9fffb;
+}
+
+.logo-ini{
+    display: inline-block;
+    position: absolute;
+    margin-left: 15px;
+   
+}
+
+.logo1{
+    width: 45px;
+    height: 45px;
+}
+
+.logo2{
+    width: 40px;
+    height: 42px;
+}
+
+nav{
+    margin-top: 25px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    left: 78%;
+}
+
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+
+nav ul li a:hover{
+    color: aqua;
+}
+
+header h1{
+    text-align: center;
+    margin-top: 80px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+form{
+    margin-top: 40px;
+}
+
+form fieldset{
+    width: 900px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../img/html5-y-css3.png);
+    background-size: 380px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+}
+
+.contenedor .form fieldset .leng-1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    margin-bottom: 20px;    
+}
+
+.input-text .datos{
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    margin-left: 10px;
+    margin-bottom: 2px;
+    margin-top: 9px;
+}
+
+.input-text .controles{
+    width: 500px;
+    height: 30px;
+    margin-left: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+::placeholder{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: ;
+}
+
+.radio{
+    width: 498px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.radio label{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.radio div{
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.radio input{
+    margin-right: 15px;
+}
+
+.multi-sel{
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.multi-sel .leng-2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.multi-sel select{
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.check .botones{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.check h4{
+    display: inline;
+    margin-left: 10px;
+}
+
+.check .boton-1{
+    width: 60px;
+    height: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: rgb(34, 140, 240);
+    border-radius: 8px;
+}
+
+.check .boton-2{
+    width: 70px;
+    height: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: rgb(212, 100, 8);
+    border-radius: 8px;
+}
+
+.final{
+    display: block;
+    position: absolute;
+    top: 880px;
+    margin-left: 893px;
+}
+
+.logos-final{
+    display: block;
+    position: absolute;
+    top: 900px;
+    margin-left: 840px;
+}

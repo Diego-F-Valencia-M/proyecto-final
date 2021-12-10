@@ -1,0 +1,498 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    min-height: 100%;
+    position: relative;
+}
+
+body{
+    background-color: #e9fffb;
+}
+
+/*Estilos de los logos*/
+.logo-ini{
+    display: inline-block;
+    position: absolute;
+    top: 25px;
+    left: 15px;   
+}
+
+.logo1{
+    width: 45px;
+    height: 45px;
+}
+
+.logo2{
+    width: 40px;
+    height: 42px;
+}
+
+/*Estilos de la barra de navegacion*/
+nav{
+    position: relative;
+    width: 370px;
+    top: 25px;
+    left: 90rem;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+
+nav ul li a:hover{
+    color: aqua;
+}
+
+/*Inicia los estilos del index.html*/
+.titulo{
+    width: 900px;
+    margin-top: 7rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 30px;
+}
+
+
+
+.html5-index{
+    display: block;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 18rem;
+    left: 24rem;
+    border: 4px solid black;
+    border-radius: 5px;
+}
+
+.sub-t1{
+    display: block;
+    position: absolute;
+    width: 150px;
+    top: 42rem;
+    left: 32rem;
+    margin-top: 30px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.texto-1{
+    display: block;
+    position: absolute;
+    width: 400px;
+    top: 47rem;
+    left: 24rem;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.css3{
+    display: block;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 18rem;
+    left: 71rem;
+    border: 4px solid black;
+    border-radius: 5px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+
+.sub-t2{
+    display: block;
+    position: absolute;
+    width: 150px;
+    top: 42rem;
+    left: 81rem;
+    margin-top: 30px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.texto-2{
+    display: block;
+    position: absolute;
+    width: 400px;
+    top: 47rem;
+    left: 71rem;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+/*Inicia los estilos del html5.html*/
+.titulo-html{
+    text-align: center;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 50px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.img-html5{
+    display: inline-block;
+    position: relative;
+    left: 39rem;
+}
+
+.text-1-html{
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    line-height: 30px;
+}
+
+.text-1-html p{
+    display: inline-block;
+    position: relative;
+    width: 1800px;
+    left: 3rem;
+    text-align: justify;
+}
+
+.html5-html-2 a{
+    display: block;
+    position: relative;
+    width: 250px;
+    text-decoration: none;
+    left: 3rem;
+    font-family: 'Roboto', sans-serif;
+    color: orangered;
+    font-size: 20px;
+}
+
+
+.text-2-html{
+    display: block;
+    position: relative;
+    text-align: justify;
+    width: 1800px;
+    left: 3rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.img-codigo{
+    display: block;
+    margin-top: 60px;
+}
+
+.img-codigo img{
+    width: 800px;
+    height: 1200px;
+    margin-left: 550px;
+}
+
+.arriba-html{
+    display: block;
+    text-align: center;    
+    margin-top: 35px;
+    margin-bottom: 25px;    
+}
+
+.arriba-html a{
+    text-decoration: none;    
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 20px;
+}
+
+/*Inicia los estilos del css3.html*/
+.titulo-css{
+    text-align: center;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 50px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.img-css3{
+    display: block;
+    position: relative;
+    margin-left: 600px;
+    margin-bottom: 30px;
+}
+
+.img-css3 img{
+    width: 720px;
+    height: 640px;
+}
+
+.text-1-css{
+    display: block;
+    position: relative;
+    text-align: justify;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    line-height: 30px;
+}
+
+.css3-css a{
+    text-decoration: none;
+    margin-left: 45px;
+    font-family: 'Roboto', sans-serif;
+    color: orangered;
+    font-size: 20px;
+}
+
+.text-2-css{
+    display: block;
+    position: relative;
+    text-align: justify;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.img-codigo-css{
+    display: block;
+}
+
+.img-codigo-css img{
+    width: 800px;
+    height: 1200px;
+    margin-left: 550px;
+}
+
+.arriba-css{
+    display: block;
+    text-align: center;    
+    margin-top: 35px;
+    margin-bottom: 25px;    
+}
+
+.arriba-css a{
+    text-decoration: none;    
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 20px;
+}
+
+/*Inicia los estilos del blog.html*/
+.titulo-blog{
+    text-align: center;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 80px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+
+
+.menu h3{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+
+}
+
+.menu .submenu li{
+    text-align: center;
+    list-style: none;
+}
+
+
+.menu ul li a{
+    text-decoration: none;
+    line-height: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: orangered;
+}
+
+.submenu li a:hover{
+    color: blue;
+}
+
+.img-html-css img{
+    display: block;
+    width: 1600px;
+    height: 900px;
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.wb{
+    margin-top: 100px;
+}
+
+.wb h2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+.wb iframe{
+   width: 960px;
+   height: 515px;
+   margin-left: 468px;
+   border: 10px solid rebeccapurple;
+   border-radius: 8px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   -ms-border-radius: 8px;
+   -o-border-radius: 8px;
+}
+
+.pilares{
+    border-top: 5px double #FFCC1D;
+    border-bottom: 5px double #FFCC1D;
+    border-left: 5px double orangered;
+    border-right: 5px double blue;
+    background-image: url(../img/html-css-javascript.jpg);
+    background-repeat: no-repeat;
+    background-size: 450px;
+    background-position-x: center;
+    background-position-y: 10px;
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 1840px;
+    height: 270px;
+}
+
+.pilares h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.pilares ol{
+    margin-left: 70px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 50px;
+}
+
+.etiquetas{
+    border: 5px dotted red;
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 1840px;
+    height: 330px;
+    background-image: url(../img/etiquetas-html5.jpg);
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-position-x: right;
+    background-position-y: 15px;
+}
+
+.etiquetas h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.etiquetas p{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 1100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    text-align: justify;
+    line-height: 33px;
+}
+
+.novedades{
+    border: 5px outset red;
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 1840px;
+    height: 930px;
+    background-image: url(../img/css-3-logo.jpg);
+}
+
+.novedades h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.novedades p{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    
+    text-align: justify;
+    line-height: 33px;
+}
+
+.estudia{
+    display: block;
+    margin-top: 150px;
+    margin-left: 80px;
+}
+
+.estudia h2{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 40px;
+}
+
+.estudia img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.arriba-blog{
+    display: block;
+    text-align: center;    
+    margin-top: 35px;
+    margin-bottom: 25px;    
+}
+
+.arriba-blog a{
+    text-decoration: none;    
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 20px;
+}
+
+/*Estilos del footer*/
+footer{
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   height: 1px; 
+}
+
+.logos-final{
+    display: block;
+    text-align: center;
+}
